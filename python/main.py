@@ -34,12 +34,15 @@ token = os.getenv('DISCORD_TOKEN')
 # Create the client
 bot = commands.Bot(command_prefix = '!', intents = discord.Intents.all())
 
-### Commands ###
+### Command(s) ###
 @bot.hybrid_command(name = 'time_until_magfest')
 async def time_until(command):
     # Get current time
     now = get_current_time()
-    message = f"There are {get_message(now, arrow.get('2024-01-24'))} until MAGFest 2024!"
+    # Hardcode the f**k out of the MAGFest 2024 date
+    magfest = arrow.get('2024-01-24')
+    # Generate and return message
+    message = f"There are {get_message(now, magfest)} until MAGFest 2024!"
     await command.send(message)
 
 # Run!
