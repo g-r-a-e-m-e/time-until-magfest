@@ -35,7 +35,7 @@ token = os.getenv('DISCORD_TOKEN')
 bot = commands.Bot(command_prefix = '!', intents = discord.Intents.all())
 
 ### Command(s) ###
-@bot.hybrid_command(name = 'time_until_magfest')
+@bot.hybrid_command(name = 'time-until')
 async def time_until(command):
     # Get current time
     now = get_current_time()

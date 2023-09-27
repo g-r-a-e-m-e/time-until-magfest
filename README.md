@@ -9,3 +9,6 @@ Totally.
 
 `Is it useful?`
 Is MAGFest fun AF?
+
+## Usage
+Using `!time-until` will tell you the time until MAGFest 2024! Hooray!
