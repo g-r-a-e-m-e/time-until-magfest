@@ -15,7 +15,7 @@ Totally. There are definitely no hardcoded dates...
 Do you believe in life after love?
 
 `Can I repurpose this for any other date?`
-Sure! Just change the *definitely not hardcoded date* in the `time_until()` function to whatever date your heart desires.
+Sure! Just change the *definitely not hardcoded date* in the `time_until()` function in `main.py` to whatever date your heart desires.
 
 ## Installation
 *Note: README largely comes from the Setup instructions from [RedKrieg's heimdallr bot](https://github.com/RedKrieg/heimdallr/tree/main)*
