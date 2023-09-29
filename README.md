@@ -47,7 +47,7 @@ nano -w token.json
 
 ### Run the bot
 ```
-(venv) ~/time-until-magfest/python$ python main.py
+(venv) ~/time-until-magfest/python$ python3 main.py
 ```
 
 ### Test in Discord!

@@ -38,7 +38,7 @@ async def time_until(command):
     # Get current time
     now = get_current_time()
     # Hardcode the f**k out of the MAGFest 2024 date
-    magfest = arrow.get('2024-01-24 00:00:01 America/New_York', 'YYYY-MM-DD HH:mm:ss ZZZ')
+    magfest = arrow.get('2024-01-17 00:00:01 America/New_York', 'YYYY-MM-DD HH:mm:ss ZZZ')
     # Generate and return message
     message = f"There are {get_message(now, magfest)} until MAGFest 2024!"
     await command.send(message)
