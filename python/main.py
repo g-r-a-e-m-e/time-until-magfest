@@ -16,7 +16,7 @@ def get_current_time():
     utc = arrow.utcnow()
     # Return local time
     nyc = utc.to('America/New_York')
-    return utc.to('local')
+    return nyc
 
 def get_message(current_datetime, future_datetime):
     # Specify message
